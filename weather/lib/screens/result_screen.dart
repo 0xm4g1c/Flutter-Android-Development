@@ -28,7 +28,7 @@ class _ResultScreenState extends State<ResultScreen> {
 
   Future<WeatherData> getWeather() async {
     String url =
-        'https://api.openweathermap.org/data/2.5/weather?q=${widget.placeToSearch}&appid=2840eab2310318b5bd9655181d5b4b6b&units=metric';
+        'https://api.openweathermap.org/data/2.5/weather?q=${widget.placeToSearch}&appid=${apiKey}&units=metric';
 
     final response = await http.get(Uri.parse(url));
     //final decodedResponse = jsonDecode(response.body);
