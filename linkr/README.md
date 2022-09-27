@@ -1,17 +1,18 @@
-# weather
+# linkr
 
-Stupidly Simple app that displays weather of a searched city
+Simple app that saves/bookmarks URLs and URL titles
 
 |         |           |         |
 |------   |--------   |---------|
-|![home.jpg](https://tinypic.host/images/2022/08/08/home.jpg) |![loading.jpg](https://tinypic.host/images/2022/08/08/loading.jpg) |![result.jpg](https://tinypic.host/images/2022/08/08/result.jpg)|
+![Input](https://tinypic.host/images/2022/09/27/20220926_123337144.png)|![Home](https://tinypic.host/images/2022/09/27/20220926_123405237.png)|![CRUD](https://tinypic.host/images/2022/09/27/20220926_123404230.png)|
+
 
 
 ## Lessons Learnt
-- Making API request
-- Using FutureBuilder to render asynchronous content
-- Making Custom classes from JSON.
-  
+- Persisting user input
+- Performing CRUD operations
+
+
 ## Getting Started
 
 This project is a starting point for a Flutter application.
